@@ -376,7 +376,7 @@ button.collapse-button {
 .bulk-update-text-input {
   button {
     background-color: var(--secondary);
-    color: $text-muted;
+    color: var(--text-muted);
     font-size: $btn-font-size-sm;
     margin: $btn-padding-y $btn-padding-x;
     padding: 0;
@@ -426,7 +426,7 @@ div.react-datepicker {
     color: $text-color;
 
     &.react-datepicker__day--disabled {
-      color: $text-muted;
+      color: var(--text-muted);
     }
 
     &:hover {

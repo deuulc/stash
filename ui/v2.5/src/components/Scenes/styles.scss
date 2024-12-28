@@ -97,7 +97,7 @@
   margin-top: 0.5rem;
 
   .date {
-    color: $text-muted;
+    color: var(--text-muted);
   }
 
   .resolution {
@@ -307,7 +307,7 @@ textarea.scene-description {
   }
 
   .group-scene-number-header {
-    color: $text-muted;
+    color: var(--text-muted);
     font-size: 0.8em;
     padding-bottom: 0;
     padding-top: 0;
@@ -884,7 +884,7 @@ input[type="range"].blue-slider {
       .scene-select-date,
       .scene-select-studio,
       .scene-select-code {
-        color: $text-muted;
+        color: var(--text-muted);
         flex-shrink: 0;
         font-size: 0.9rem;
         overflow: hidden;

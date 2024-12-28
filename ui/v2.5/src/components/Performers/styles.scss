@@ -207,7 +207,7 @@
 .performer-table .weight-imperial,
 .performer-table .penis-length-imperial,
 .performer-disambiguation {
-  color: $text-muted;
+  color: var(--text-muted);
   font-size: 0.875em;
 }
 
@@ -261,7 +261,7 @@
 
       .performer-select-disambiguation,
       .performer-select-birthdate {
-        color: $text-muted;
+        color: var(--text-muted);
         flex-shrink: 0;
         font-size: 0.9rem;
         overflow: hidden;
