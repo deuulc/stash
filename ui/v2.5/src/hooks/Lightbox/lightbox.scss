@@ -106,7 +106,7 @@
     }
 
     a {
-      color: $text-color;
+      color: var(--text-color);
       font-weight: bold;
       text-decoration: none;
     }

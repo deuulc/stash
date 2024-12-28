@@ -225,7 +225,7 @@ button.collapse-button {
 
 .grid-card {
   a .card-section-title {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
   }
 
@@ -409,12 +409,12 @@ button.collapse-button {
 div.react-datepicker {
   background-color: var(--body-bg);
   border-color: $card-bg;
-  color: $text-color;
+  color: var(--text-color);
 
   .react-datepicker__header,
   .react-datepicker-time__header {
     background-color: var(--secondary);
-    color: $text-color;
+    color: var(--text-color);
     padding-top: 0.4rem;
   }
 
@@ -423,7 +423,7 @@ div.react-datepicker {
   }
 
   .react-datepicker__day {
-    color: $text-color;
+    color: var(--text-color);
 
     &.react-datepicker__day--disabled {
       color: var(--text-muted);
@@ -436,7 +436,7 @@ div.react-datepicker {
 
   div.react-datepicker__time-container div.react-datepicker__time {
     background-color: var(--body-bg);
-    color: $text-color;
+    color: var(--text-color);
 
     ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
       background-color: rgba(138, 155, 168, 0.15);
@@ -444,7 +444,7 @@ div.react-datepicker {
   }
 
   .react-datepicker__day-name {
-    color: $text-color;
+    color: var(--text-color);
   }
 
   // replace the current month with the dropdowns
@@ -654,26 +654,26 @@ button.btn.favorite-button {
   padding-top: 0;
 
   .dropdown-divider {
-    border-top-color: $textfield-bg;
+    border-top-color: var(--textfield-bg);
     margin: 0;
   }
 
   .scraper-filter-container {
     background-color: var(--secondary);
-    border-bottom: solid 1px $textfield-bg;
+    border-bottom: solid 1px var(--textfield-bg);
     padding: 5px;
     position: sticky;
     top: 0;
     z-index: 1;
 
     .btn-group {
-      border: solid 1px $textfield-bg;
+      border: solid 1px var(--textfield-bg);
       border-radius: 5px;
       width: 100%;
     }
 
     .clearable-text-field {
-      background-color: $textfield-bg;
+      background-color: var(--textfield-bg);
     }
 
     .clearable-text-field-clear {

@@ -1,6 +1,6 @@
 .grid-card {
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
   }
 
@@ -43,7 +43,7 @@
   }
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     display: inline-block;
     letter-spacing: -0.03rem;
     text-align: right;

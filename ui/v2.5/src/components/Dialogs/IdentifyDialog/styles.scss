@@ -6,7 +6,7 @@
 
 .scraper-source-list {
   .list-group-item {
-    background-color: $textfield-bg;
+    background-color: var(--textfield-bg);
     padding: 0.25em;
 
     .drag-handle {

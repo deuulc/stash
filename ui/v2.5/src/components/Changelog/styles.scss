@@ -31,7 +31,7 @@
     }
 
     &-header {
-      color: $text-color;
+      color: var(--text-color);
     }
   }
 }

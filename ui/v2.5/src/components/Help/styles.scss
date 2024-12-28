@@ -1,8 +1,8 @@
 .manual {
-  color: $text-color;
+  color: var(--text-color);
 
   .close {
-    color: $text-color;
+    color: var(--text-color);
   }
 
   &-container {
@@ -13,7 +13,7 @@
   &-header,
   &-body {
     background-color: $card-bg;
-    color: $text-color;
+    color: var(--text-color);
     overflow-y: hidden;
   }
 

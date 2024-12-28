@@ -183,7 +183,7 @@ input[type="range"].zoom-slider {
       }
 
       .filter-item-header {
-        background-color: $card-cap-bg;
+        background-color: var(--card-cap-bg);
         border: none;
         border-bottom: 1px solid rgba(0, 0, 0, 0.125);
         color: inherit;
@@ -260,7 +260,7 @@ input[type="range"].zoom-slider {
 }
 
 .filter-tags .clear-all-button {
-  color: $text-color;
+  color: var(--text-color);
   // to match filter pills
   line-height: 16px;
   padding: 0;
@@ -562,7 +562,7 @@ input[type="range"].zoom-slider {
 }
 
 .table-list a {
-  color: $text-color;
+  color: var(--text-color);
 }
 
 .table-list .table-striped td,
