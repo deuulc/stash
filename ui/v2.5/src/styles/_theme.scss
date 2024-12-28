@@ -1,4 +1,24 @@
-/* Blueprint dark theme */
+root {
+  --secondary: #394b59;
+  --muted-gray: #bfccd6;
+  --success: #0f9960;
+  --warning: #d9822b;
+  --danger: #db3737;
+  
+  --body-bg: #202b33;
+  --text-muted: $muted-gray;
+  --link-color: #48aff0;
+  --text-color: #f5f8fa;
+  --dark-text: #182026;
+  --textfield-bg: rgba(16, 22, 26, 0.3);
+  --card-bg: #30404d;
+  --card-cap-bg: rgba(#000, 0.03);
+
+  --red1: #a82a2a;
+  --orange1: #a66321;
+  --sepia1: #63411e;
+  --dark-gray5: #394b59;
+}
 
 $secondary: #394b59;
 $muted-gray: #bfccd6;
