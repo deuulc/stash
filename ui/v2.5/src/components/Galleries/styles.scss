@@ -379,7 +379,7 @@ $galleryTabWidth: 450px;
     width: 100%;
 
     .gallery-select-image {
-      background-color: $body-bg;
+      background-color: var(--body-bg);
       margin-right: 0.4em;
       max-height: 50px;
       max-width: 89px;

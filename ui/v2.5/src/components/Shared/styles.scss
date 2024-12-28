@@ -407,7 +407,7 @@ button.collapse-button {
 
 /* stylelint-disable */
 div.react-datepicker {
-  background-color: $body-bg;
+  background-color: var(--body-bg);
   border-color: $card-bg;
   color: $text-color;
 
@@ -435,7 +435,7 @@ div.react-datepicker {
   }
 
   div.react-datepicker__time-container div.react-datepicker__time {
-    background-color: $body-bg;
+    background-color: var(--body-bg);
     color: $text-color;
 
     ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
@@ -486,7 +486,7 @@ div.react-datepicker {
 
   .react-datepicker__year-dropdown,
   .react-datepicker__month-dropdown {
-    background-color: $body-bg;
+    background-color: var(--body-bg);
 
     .react-datepicker__year-option:hover,
     .react-datepicker__month-option:hover {
