@@ -37,7 +37,7 @@
 
 .recommendations-container-edit {
   .recommendation-row {
-    background-color: $secondary;
+    background-color: var(--secondary);
     margin-bottom: 10px;
 
     &:not(.recommendation-row-add) {

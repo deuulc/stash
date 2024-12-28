@@ -66,7 +66,7 @@
   .package-id,
   .package-date,
   .package-latest-date {
-    color: $muted-gray;
+    color: var(--muted-gray);
     font-size: 0.8rem;
   }
 
@@ -92,7 +92,7 @@
   }
 
   .package-required-by {
-    color: $warning;
+    color: var(--warning);
     font-size: 0.8rem;
   }
 
@@ -105,7 +105,7 @@
 
   .source-error {
     & > .fa-icon {
-      color: $warning;
+      color: var(--warning);
     }
 
     .btn {

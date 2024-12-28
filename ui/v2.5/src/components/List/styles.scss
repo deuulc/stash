@@ -55,7 +55,7 @@ input[type="range"].zoom-slider {
 }
 
 .query-text-field-clear {
-  background-color: $secondary;
+  background-color: var(--secondary);
   color: $text-muted;
   font-size: $btn-font-size-sm;
   margin: $btn-padding-y $btn-padding-x;
@@ -69,7 +69,7 @@ input[type="range"].zoom-slider {
   &:active,
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled):active:focus {
-    background-color: $secondary;
+    background-color: var(--secondary);
     border-color: transparent;
     box-shadow: none;
   }
@@ -129,7 +129,7 @@ input[type="range"].zoom-slider {
     }
 
     .delete-button {
-      color: $danger;
+      color: var(--danger);
     }
   }
 }
@@ -216,7 +216,7 @@ input[type="range"].zoom-slider {
     }
 
     .remove-criterion-button {
-      color: $danger;
+      color: var(--danger);
     }
   }
 
@@ -237,7 +237,7 @@ input[type="range"].zoom-slider {
 }
 
 .modifier-options .modifier-option {
-  background-color: $secondary;
+  background-color: var(--secondary);
   border: none;
   border-radius: 10rem;
   cursor: pointer;
@@ -342,11 +342,11 @@ input[type="range"].zoom-slider {
     }
 
     .include-button {
-      color: $success;
+      color: var(--success);
     }
 
     .exclude-icon {
-      color: $danger;
+      color: var(--danger);
     }
 
     .exclude-button {
@@ -357,7 +357,7 @@ input[type="range"].zoom-slider {
       padding-right: 0.25rem;
 
       .exclude-button-text {
-        color: $danger;
+        color: var(--danger);
         display: none;
         font-size: 12px;
         font-weight: 600;

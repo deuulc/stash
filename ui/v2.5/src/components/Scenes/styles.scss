@@ -697,7 +697,7 @@ input[type="range"].blue-slider {
   }
 
   .current {
-    background-color: $secondary;
+    background-color: var(--secondary);
   }
 }
 
@@ -836,11 +836,11 @@ input[type="range"].blue-slider {
   }
 
   .add-date-button {
-    color: $success;
+    color: var(--success);
   }
 
   .remove-date-button {
-    color: $danger;
+    color: var(--danger);
   }
 
   ul {

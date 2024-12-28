@@ -61,7 +61,7 @@
 .move-target {
   align-items: center;
   background-color: $primary;
-  color: $secondary;
+  color: var(--secondary);
   display: flex;
   height: 100%;
   justify-content: center;

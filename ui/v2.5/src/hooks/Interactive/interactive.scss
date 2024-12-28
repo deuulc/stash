@@ -5,18 +5,18 @@ div.scene-interactive-status {
 
   &.interactive-status-disconnected,
   &.interactive-status-error svg {
-    color: $danger;
+    color: var(--danger);
   }
 
   &.interactive-status-connecting svg,
   &.interactive-status-syncing svg,
   &.interactive-status-uploading svg {
     animation: 1s ease 0s infinite alternate fadepulse;
-    color: $warning;
+    color: var(--warning);
   }
 
   &.interactive-status-ready svg {
-    color: $success;
+    color: var(--success);
   }
 
   .status-text {

@@ -296,20 +296,20 @@
   .stop:not(:disabled),
   .stopping .fa-icon,
   .cancelled .fa-icon {
-    color: $danger;
+    color: var(--danger);
   }
 
   .running .fa-icon,
   .finished .fa-icon {
-    color: $success;
+    color: var(--success);
   }
 
   .failed .fa-icon {
-    color: $danger;
+    color: var(--danger);
   }
 
   .ready .fa-icon {
-    color: $warning;
+    color: var(--warning);
   }
 
   .cancelled,
@@ -318,7 +318,7 @@
   }
 
   .job-error {
-    color: $danger;
+    color: var(--danger);
   }
 }
 
@@ -397,7 +397,7 @@
   }
 
   .fa-icon {
-    color: $success;
+    color: var(--success);
     height: 2rem;
     margin: 0;
     width: 2rem;
@@ -409,7 +409,7 @@
   }
 
   &.failed .fa-icon {
-    color: $danger;
+    color: var(--danger);
   }
 }
 

@@ -122,7 +122,7 @@
   }
 
   &__age {
-    color: $muted-gray;
+    color: var(--muted-gray);
   }
 
   // allow country string to be shown, but disable by default
