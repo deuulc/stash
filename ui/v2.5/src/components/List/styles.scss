@@ -208,7 +208,7 @@ input[type="range"].zoom-slider {
     }
 
     .pin-criterion-button {
-      color: $text_color;
+      color: var(--text_color);
 
       &:hover svg {
         transform: rotate(0);
